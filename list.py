@@ -4,7 +4,7 @@ print(name[0])
 names=list()
 names=['hanna','alex',1,3,4,5,6,True]
 print(type(names))
-print(len(names))
+print(len(names)) # len means length
 print(names[1])
 
 #negative indexing starts with -1
@@ -14,14 +14,14 @@ print(names[1])
 # list unpacking
 
 names=['hanna','alex','abel','yakob','micky',]
-first,*second,third,= names  
+first,second,*third,= names  
 #first is for hanna and second is for alex and *third means print out the rest
-print(second)
+print(names)
 
 
 #slicing
 
-new_list=names[-4:-2]
+new_list=names[2:4]
 print(new_list)
 
 
@@ -35,7 +35,6 @@ print(names)
 #checking element in a list
 
 print('bisrat' in names)
-
 
 #adding items to the list
 
@@ -53,8 +52,19 @@ print(names)
 new_list=names.copy() #copying a list
 print(new_list)
 
-#joining list
-numbers=[12,3,5,6,7]
-newest_list = numbers + names
-newest_list=numbers.extend(names)
-print(newest_list.count())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
