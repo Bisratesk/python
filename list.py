@@ -10,9 +10,7 @@ print(names[1])
 #negative indexing starts with -1
 
 
-
 # list unpacking
-
 names=['hanna','alex','abel','yakob','micky',]
 first,second,*third,= names  
 #first is for hanna and second is for alex and *third means print out the rest
