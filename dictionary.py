@@ -10,5 +10,6 @@ students.pop('name')
 print(students)   #removing item from the dictionary
 
 
-
+ 
+ 
 

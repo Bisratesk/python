@@ -4,7 +4,7 @@ salary=100
 is_completed=True
 
 print(type(salary))
-
+ 
 students = ['hanna','abeba','alex','yakob','micky',234,33.5,True]
 #string method
 
